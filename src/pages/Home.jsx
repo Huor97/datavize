@@ -1,5 +1,5 @@
 const Home = () => {
-  return <h1>Home</h1>;
+  return <>{/* avoir 3 lign, 5 films sur chaque ligne */}</>;
 };
 
 export default Home;

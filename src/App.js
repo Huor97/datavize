@@ -2,9 +2,12 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
-import Blogs from "./pages/Blogs";
-import Contact from "./pages/Contact";
+import Film from "./pages/Film";
+import TvProgrammes from "./pages/TvProgrammes";
+import Films from "./pages/Films";
 import NoPage from "./pages/NoPage";
+import RecentlyAdded from "./pages/RecentlyAdded";
+import MyList from "./pages/MyList";
 
 function App() {
   return (
@@ -14,8 +17,11 @@ function App() {
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<Home />} />
-              <Route path="blogs" element={<Blogs />} />
-              <Route path="contact" element={<Contact />} />
+              <Route path="film" element={<Film />} />
+              <Route path="tvProgrammes" element={<TvProgrammes />} />
+              <Route path="films" element={<Films />} />
+              <Route path="recentlyAdded" element={<RecentlyAdded />} />
+              <Route path="myList" element={<MyList />} />
               <Route path="*" element={<NoPage />} />
             </Route>
           </Routes>

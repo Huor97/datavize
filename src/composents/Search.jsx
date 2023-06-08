@@ -3,7 +3,11 @@ import React from "react";
 function Search() {
   return (
     <div>
-      <input type="text" placeholder="Search" />
+      <input
+        className="outline text-black pl-[8px] pr-[5px] w-[100%]"
+        type="text"
+        placeholder="Search"
+      />
     </div>
   );
 }

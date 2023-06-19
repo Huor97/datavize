@@ -15,9 +15,6 @@ function Annonces({ image }) {
           />
         </div>
       </div>
-      <div className="z-50">
-        <Descriptions />
-      </div>
     </>
   );
 }

@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+## Présentation du projet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+J'ai cloné l'API Netflix de site https://www.themoviedb.org/. Ce projet me permet de créer une page d'accueil personnalisée pour afficher des films et leurs informations.
 
-## Available Scripts
+## Aperçu visuel
 
-In the project directory, you can run:
+![page principale](./public/images/avatar-clone-netflix-site.png)
 
-### `npm start`
+===========================Plus d'info=================
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![plus info](./public/images/plus%20info%20netflix%20clone.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+=========================page d'accueil==================
 
-### `npm test`
+![plus info](./public/images/netflix-aceuil.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+=========================Mobile===================
 
-### `npm run build`
+![page principale mobile](./public/images/mobil%20version%20netflix.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Fonctionnalités
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Affichage aléatoire d'un poster de film dans l'en-tête à chaque rechargement de la page.
+- Bouton "Lecteur" : redirige vers une page où l'utilisateur peut regarder le film sélectionné.
+- Bouton "Plus d'infos" : affiche une bannière de film avec une description détaillée.
+- Affichage des films dans plusieurs colonnes avec la possibilité de faire défiler la liste.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instructions pour l'exécution
 
-### `npm run eject`
+1. Clonez ce dépôt sur votre machine locale.
+2. Assurez-vous d'avoir installé les dépendances suivantes :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   - Style : SCSS <img src="./public/images/scss.jpg" alt="Nom de l'image" width="50" height="20">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   - API : Axios <img src="./public/images/axios-react.png" alt="Nom de l'image" width="60" height="20">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   - Router : react-router-dom <img src="./public/images/react-router.jpg" alt="Nom de l'image" width="60" height="40">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+     - Routes/Route
+     - Link
+     - useParams
 
-## Learn More
+3. Exécutez le projet en utilisant votre serveur de développement préféré.
+4. Accédez à la page d'accueil pour commencer à explorer les films disponibles.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+N'hésitez pas à contribuer en proposant des améliorations ou en signalant des problèmes.

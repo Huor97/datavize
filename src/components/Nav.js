@@ -38,12 +38,7 @@ const Nav = () => {
       <button className="nav__burger" onClick={handleClick}>
         <FontAwesomeIcon icon={faBars} />
       </button>
-      <img
-        src="public/images/Noir-et-Blanc-Encadré-Future-DJ-Logo_1_.svg"
-        alt="dataviz"
-        width="150px"
-        className=" nav__logo"
-      />
+
       <nav
         className={`nav__links 
         ${
